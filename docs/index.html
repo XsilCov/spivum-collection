@@ -19,15 +19,23 @@
   #q { flex: 1; min-width: 180px; background: #171a23; border: 1px solid #2c3344; color: #e6e6e6; border-radius: 20px; padding: 8px 14px; font-size: 14px; outline: none; }
   #q:focus { border-color: #2f7a52; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
-  .card { background: #171a23; border: 1px solid #262b38; border-radius: 12px; padding: 16px; transition: opacity .15s; }
+  .card { background: #171a23; border: 1px solid #262b38; border-radius: 12px; padding: 14px; transition: opacity .15s; }
+  .thumb { display: block; margin-bottom: 10px; border-radius: 8px; overflow: hidden; }
+  .thumb img { width: 100%; display: block; aspect-ratio: 16/10; object-fit: cover; }
   .cat { display: inline-block; background: #202634; color: #7ee2a8; border-radius: 20px; padding: 2px 10px; font-size: 11px; margin-bottom: 8px; }
-  .card-title { font-weight: 700; font-size: 16px; margin-bottom: 8px; color: #7ee2a8; }
+  .card-title { font-weight: 700; font-size: 16px; margin-bottom: 8px; }
+  .card-title a { color: #7ee2a8; text-decoration: none; }
+  .card-title a:hover { text-decoration: underline; }
   .card-desc { font-size: 14px; line-height: 1.45; color: #cfd3e0; margin-bottom: 10px; }
   .tags { margin-bottom: 8px; }
   .tag { display: inline-block; background: #202634; color: #9fb6e8; border-radius: 20px; padding: 2px 10px; font-size: 12px; margin: 0 4px 4px 0; }
-  .links { margin-bottom: 8px; }
-  .link { display: block; color: #5aa9ff; font-size: 13px; word-break: break-all; margin: 2px 0; }
+  .links { display: flex; flex-direction: column; gap: 6px; margin-bottom: 8px; }
+  .btn { display: block; background: #1e6f3f; color: #fff; text-decoration: none; border-radius: 8px; padding: 8px 12px; font-size: 13px; text-align: center; word-break: break-all; }
+  .btn:hover { background: #2a9d5b; }
+  .btn-ghost { background: #202634; color: #9fb6e8; }
+  .btn-ghost:hover { background: #2c3344; }
   .meta { color: #666; font-size: 11px; }
+  .meta a { color: #5aa9ff; text-decoration: none; }
   .empty { color: #777; }
   .hidden { display: none !important; }
 </style>
@@ -37,13 +45,13 @@
   <h1>🔮 Spivum · Collection</h1>
   <span class="nav dim">📷 Photo gallery — empty</span>
 </div>
-<div class="sub">Apps & interests by category · 1 entries</div>
+<div class="sub">Software & projects by category · 1 entries</div>
 <div class="controls">
   <div class="chips"><button class="chip active" data-cat="">All</button><button class="chip" data-cat="Радіо">Радіо</button></div>
   <input id="q" placeholder="search…">
 </div>
 <div class="grid" id="grid">
-<article class='card' data-cat='Радіо'><div class='cat'>Радіо</div><div class='card-title'>RadioBratan FM</div><p class='card-desc'>Це екран з описом програми для отримання радіо через SDR на телефоні. Програма доступна для завантаження, версія 2.4.1. На екрані також вказано посилання на GitHub.</p><div class='tags'><span class="tag">радіо</span><span class="tag">SDR</span><span class="tag">телефон</span><span class="tag">завантаження</span><span class="tag">GitHub</span><span class="tag">RadioBratan</span><span class="tag">FM</span></div><div class='links'><a class="link" href="https://github.com/lelik/test-app" target="_blank" rel="noopener">https://github.com/lelik/test-app</a></div><div class='meta'>2026-08-07T02:21 · id 1</div></article>
+<article class='card' data-cat='Радіо'><a class="thumb" href="entries/1.html"><img src="photos/20260807_022057_148131.png" alt="RadioBratan FM" loading="lazy"></a><div class='cat'>Радіо</div><div class='card-title'><a href='entries/1.html'>RadioBratan FM</a></div><p class='card-desc'>Це екран з описом програми для отримання радіо через SDR на телефоні. Програма доступна для завантаження, версія 2.4.1. На екрані також вказано посилання на GitHub.</p><div class='tags'><span class="tag">радіо</span><span class="tag">SDR</span><span class="tag">телефон</span><span class="tag">завантаження</span><span class="tag">GitHub</span><span class="tag">RadioBratan</span><span class="tag">FM</span></div><div class='links'><a class="btn" href="https://github.com/lelik/test-app" target="_blank" rel="noopener">↗ Open https://github.com/lelik/test-app</a></div><div class='meta'>2026-08-07T02:21 · id 1 · <a href='entries/1.html'>open →</a></div></article>
 </div>
 <script>
 const chips = document.querySelectorAll('.chip');
