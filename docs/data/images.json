@@ -2,7 +2,7 @@
   "images": [
     {
       "id": 1,
-      "path": "/public/spivum-core/memory/uploads/20260807_022057_148131.png",
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_022057_148131.png",
       "ts": "2026-08-07T02:21",
       "md5": "63a7a648658197689c2f37655cdc8f66",
       "title": "RadioBratan FM",
@@ -20,6 +20,224 @@
       "links": [
         "https://github.com/lelik/test-app"
       ],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 2,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163112_022716.png",
+      "ts": "2026-08-07T19:40",
+      "md5": "9bda552c6e715d56e95198c4dd0a54d4",
+      "title": "Windows Installation Program",
+      "category": "System Utility",
+      "description": "This screenshot displays the user interface for the Windows operating system installation process. It shows the current status as \"Copying Windows files (0%)\" and lists the upcoming stages, which include preparing files, installing features, installing updates, and completing the installation. The bottom progress bar indicates the process is in the \"Windows Installation\" phase.",
+      "tags": [
+        "Windows",
+        "OS installation",
+        "system setup",
+        "installer",
+        "operating system",
+        "file copying",
+        "progress",
+        "utility"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 3,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163143_527791.png",
+      "ts": "2026-08-07T19:40",
+      "md5": "25d047fe625c3f408eac01f1555c001f",
+      "title": "QEMU - TigerVNC",
+      "category": "System",
+      "description": "This screenshot shows a virtual machine environment, specifically QEMU, being accessed through a TigerVNC client. The display within the virtual machine indicates a Windows installation process that has encountered an unexpected error. The user is prompted to restart the computer to proceed with the installation.",
+      "tags": [
+        "QEMU",
+        "TigerVNC",
+        "virtualization",
+        "VNC",
+        "remote desktop",
+        "Windows installation",
+        "error",
+        "virtual machine"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 4,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163214_789436.png",
+      "ts": "2026-08-07T19:42",
+      "md5": "427597eb1ece6d684bdc430c43dcf640",
+      "title": "Yazi",
+      "category": "Apps",
+      "description": "This screenshot displays a terminal-based file manager, likely Yazi, showing a directory listing on the left panel. It presents various file types including archives, source code, documents, videos, and images. The right panel appears to show details or contents related to a selected item, possibly an archive, indicating components like \"Symbols\" and \"PowerToy\".",
+      "tags": [
+        "file manager",
+        "terminal",
+        "CLI",
+        "file browser",
+        "utility",
+        "productivity",
+        "directory"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 5,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163247_052908.png",
+      "ts": "2026-08-07T19:42",
+      "md5": "cd6e4f58e2be29846385ab1ad445ecff",
+      "title": "Analyzing GitHub JSON Memory File Assistance",
+      "category": "Apps",
+      "description": "This screenshot displays a file management interface for a software project named \"Analyzing GitHub JSON Memory File Assistance - DeepSeek_files\". It shows a directory structure with various folders such as backups, documentation, notes, and a demo, alongside several text files. The project likely involves analyzing JSON memory files, possibly sourced from GitHub, and organizing related project assets.",
+      "tags": [
+        "GitHub",
+        "JSON",
+        "memory analysis",
+        "file management",
+        "project files",
+        "documentation",
+        "backups",
+        "DeepSeek"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 6,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163318_368909.png",
+      "ts": "2026-08-07T19:40",
+      "md5": "1f500656a90fccc84a52af890dd2bdd8",
+      "title": "DeepSeek Files",
+      "category": "Utilities",
+      "description": "This application presents a file management interface, allowing users to browse and organize files and folders. It displays file sizes, modification dates, and includes search functionality for efficient navigation. The tool appears designed for managing digital content, potentially for project-specific files or general disk storage.",
+      "tags": [
+        "file manager",
+        "file browser",
+        "disk management",
+        "data organization",
+        "search",
+        "folders",
+        "files",
+        "storage"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 7,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163349_643798.png",
+      "ts": "2026-08-07T19:40",
+      "md5": "32dc2821e00e4f327f668d9f6f1a3bc6",
+      "title": "Yazi",
+      "category": "Apps",
+      "description": "This screenshot showcases Yazi, a modern terminal file manager, displaying the contents of a directory. It presents a dual-pane interface, with the left pane listing various files and folders, including a zip archive, source code, and numerous images. The right pane appears to provide additional information or a detailed view related to the selected item, possibly debugging symbols for a software package.",
+      "tags": [
+        "file manager",
+        "terminal",
+        "CLI",
+        "navigation",
+        "files",
+        "directories",
+        "utility",
+        "Yazi"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 8,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163452_658791.png",
+      "ts": "2026-08-07T19:43",
+      "md5": "563515ad86fea5a34cc6731e31faa929",
+      "title": "Project File Manager",
+      "category": "Apps",
+      "description": "This application provides an interface for managing files and folders, likely within a software development project context, indicated by references to `.git` and `node_modules`. Users can create new folders, drag and drop existing ones into a designated zone, and monitor the progress of ongoing operations with options to stop or refresh the view. It serves as a utility for organizing and interacting with project directories.",
+      "tags": [
+        "file management",
+        "project management",
+        "folder operations",
+        "development tools",
+        "git",
+        "node_modules",
+        "drag and drop",
+        "progress monitoring"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 9,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163523_147794.png",
+      "ts": "2026-08-07T19:41",
+      "md5": "187f982636b834d8ee55f2f67d433bf9",
+      "title": "WattSapDrive Bot",
+      "category": "Social",
+      "description": "This application displays the operational status of a bot named \"WattSapDrive Bot,\" likely integrated with WhatsApp. It provides network details such as a public IP address and internet connectivity status, along with indicators for WhatsApp-related activities like uploads and downloads. The interface also shows error messages, including one related to cryptographic function execution.",
+      "tags": [
+        "WhatsApp bot",
+        "network status",
+        "IP address",
+        "communication",
+        "utility",
+        "messaging",
+        "automation"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 10,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163554_381973.png",
+      "ts": "2026-08-07T19:41",
+      "md5": "dadf35998d05c15b807ce7b59086254f",
+      "title": "Android Studio",
+      "category": "Business",
+      "description": "Android Studio is the official integrated development environment (IDE) for Google's Android operating system. It provides tools for developers to create, test, and debug Android applications. Users can start new projects from scratch, open existing ones, or clone repositories to begin their development work.",
+      "tags": [
+        "Android",
+        "IDE",
+        "mobile development",
+        "app development",
+        "programming",
+        "software",
+        "coding",
+        "developer tools"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 11,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260807_163421_366726.png",
+      "ts": "2026-08-07T19:43",
+      "md5": "e8b585871a6bee0740524f0dbef23ae5",
+      "title": "File Uploader",
+      "category": "Apps",
+      "description": "This application provides a user interface for uploading files and folders, supporting drag-and-drop functionality and options to skip specific system files during transfer. It displays detailed upload progress, including speed, remaining time, and file size, and handles errors such as exceeding file size limits. The interface also offers basic disk and folder management capabilities, showing a summary of items and their update status.",
+      "tags": [
+        "file upload",
+        "folder management",
+        "drag and drop",
+        "progress bar",
+        "error handling",
+        "disk utility",
+        "file transfer",
+        "Ukrainian UI"
+      ],
+      "links": [],
       "kind": "screenshot",
       "model": "deepseek/deepseek-chat"
     }
