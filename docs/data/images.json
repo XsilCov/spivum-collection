@@ -1,0 +1,27 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "path": "/public/spivum-core/memory/uploads/20260807_022057_148131.png",
+      "ts": "2026-08-07T02:21",
+      "md5": "63a7a648658197689c2f37655cdc8f66",
+      "title": "RadioBratan FM",
+      "category": "Радіо",
+      "description": "Це екран з описом програми для отримання радіо через SDR на телефоні. Програма доступна для завантаження, версія 2.4.1. На екрані також вказано посилання на GitHub.",
+      "tags": [
+        "радіо",
+        "SDR",
+        "телефон",
+        "завантаження",
+        "GitHub",
+        "RadioBratan",
+        "FM"
+      ],
+      "links": [
+        "https://github.com/lelik/test-app"
+      ],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
+    }
+  ]
+}
