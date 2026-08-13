@@ -240,6 +240,28 @@
       "links": [],
       "kind": "screenshot",
       "model": "deepseek/deepseek-chat"
+    },
+    {
+      "id": 12,
+      "path": "/home/qpq/spivum-core/memory/uploads/20260813_131327_Screenshot_20260713-230731.jpg",
+      "ts": "2026-08-13T13:13",
+      "md5": "73580801e14836b74280733c42542dde",
+      "title": "MyFridgeFood",
+      "category": "Food",
+      "description": "MyFridgeFood is an application designed to help users discover recipes based on the ingredients they currently have in their fridge. Users input their available food items, and the app suggests various dishes that can be prepared, along with instructions. It aims to make meal planning and cooking more convenient by utilizing existing ingredients.",
+      "tags": [
+        "recipe",
+        "cooking",
+        "food",
+        "ingredients",
+        "meal planning",
+        "kitchen",
+        "fresh food",
+        "app"
+      ],
+      "links": [],
+      "kind": "screenshot",
+      "model": "deepseek/deepseek-chat"
     }
   ]
 }
